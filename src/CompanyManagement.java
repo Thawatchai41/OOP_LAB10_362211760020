@@ -13,7 +13,7 @@ public class CompanyManagement {
         //add new employee
         addNewEmp(dao);
 
-        //find employee my id
+        //find employee my id.
         findEmpByID(dao);
 
     }//class
