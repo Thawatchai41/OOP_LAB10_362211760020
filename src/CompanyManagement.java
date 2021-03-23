@@ -19,7 +19,7 @@ public class CompanyManagement {
     }//class
 
     private static void findEmpByID(EmployeeDAOImpl dao) {
-        Employee emp = dao.findById("EMP005");
+        Employee emp = dao.findById("EMP001");
 
         if (emp != null){
             System.out.println(emp.toString());
